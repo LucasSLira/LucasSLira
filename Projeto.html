@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <style>
+        body{
+            background-color: black;
+        }
+       
+        header img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgb(79, 179, 179);
+          
+        }
+
+        .center{
+            text-align: center;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+            color: white;
+        }
+        .card {
+            display: flex;
+            text-align: center;
+            flex-flow: row wrap;
+
+        }
+
+        footer img {
+            width: 40px;
+            height: 40px;
+            
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+        }
+        footer a{
+            margin: 20px;
+            text-align: center;
+        }
+        footer p{
+            margin 20px;
+        }
+
+        ul {
+            
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            align-items: center;
+            padding: 16px;
+            color: rgb(79, 179, 179);
+            
+            }
+    
+        a{
+            color: rgb(79, 179, 179);
+            text-decoration: none;
+        }
+    
+
+        li {
+            float: left;
+        }
+
+        .link {
+            color: rgb(79, 179, 179);
+            text-decoration: none;
+            font-size: 30px;
+        }
+
+              
+        .img {
+            border: 1px solid #ccc;
+            border-radius: 1rem;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .img img {
+            width: 125px;
+            height: 115px;
+        }
+
+        @media all and (min-width: 35rem) {
+            body {
+                margin: 0 auto;
+            }
+
+            /*.container {
+                max-width: 1200px;
+                margin: 0 auto;
+
+            }*/
+
+            .img {
+                max-width: 28rem;
+                margin: 1rem;
+            }
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+
+            .imagem_harry {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Sobre mim</a>
+            </li>
+            <li>
+                <a href="Projeto.html">Projetos</a>
+            </li>
+            <li>
+                <a href="Formacao.html">Formação</a>
+            </li>
+            <li>
+                <a href="Contato.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="container">
+        <header>
+            <div class="center">
+                <img src="./img/lirafoto.jpeg"></img>
+            </div>
+           <h1>Lucas Lira</h1>
+    
+        </header>
+        <br>
+    </header>
+      
+
+        </aside>
+        <section class=" principal">
+            
+            <div class="card">
+                <div class="img">
+                    
+
+                    <div class="link">
+                        <a href="https://www.figma.com/file/zF8hdedWYLVja73k5y9kTK/Untitled?type=design&mode=dev&t=z2x1J8dngbAQdMQC-1">Figma</a>
+                        
+                    </div>
+                </div>
+
+                <div class="img">
+                   
+
+                    <div class="link">
+                        <a href="https://lucasslira.github.io/LucasLira/">Harry Potter - Site</a>
+                        
+                    </div>
+                </div>
+                <div class="img">
+                  
+
+                    <div class="link">
+                        <a href="https://lucasslira.github.io/Calculadora/">Calculadora Simples</a>
+                        
+                    </div>
+                </div>
+                
+                </div>
+        </section>
+    </div>
+    <footer>
+       
+        <a href="http://www.linkedin.com/in/lucas-lira-773b50232"  target="_blank" rel="noopener noreferrer">
+        <img src="./img/Linkedin.png"></img>
+        <p>Linkedin</p>
+       </a>
+    </footer>
+    </div>
+</body>
+
+</html>
